@@ -7,12 +7,27 @@
     },
     "redis":  "latest",
     "nodejs": "latest",
-    "ruby":   "3.2",
+    "ruby": {
+      "version": "3.3",
+    },
     "libyaml": {
       "version": "latest",
       "outputs": ["dev", "out"],
     },
     "mailhog": "latest",
+    "glibclocales": {
+      "version":            "latest",
+      "excluded_platforms": ["aarch64-darwin", "x86_64-darwin"],
+    },
+    "openssl": {
+      "version": "latest",
+      "outputs": ["out", "dev"],
+    },
+    "libnsl":      "latest",
+    "imagemagick": "latest",
+  },
+  "env": {
+    "DEVBOX_COREPACK_ENABLED": "1",
   },
   "shell": {
     "init_hook": [
@@ -29,8 +44,8 @@
         "RAILS_ENV=test bin/rails db:create db:migrate",
       ],
       "setup_admin": [
-        "bin/rails admin:create"
-      ]
+        "bin/rails admin:create",
+      ],
     },
   },
 }

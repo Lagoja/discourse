@@ -1,6 +1,150 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "glibclocales@latest": {
+      "last_modified": "2024-10-13T23:44:06Z",
+      "resolved": "github:NixOS/nixpkgs/d4f247e89f6e10120f911e2e2d2254a050d0f732#glibcLocales",
+      "source": "devbox-search",
+      "version": "2.40-36",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nscqaw8kyv5470vspm7zjacc5vmpa1mq-glibc-locales-2.40-36",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nscqaw8kyv5470vspm7zjacc5vmpa1mq-glibc-locales-2.40-36"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/px8cvmxycca75kfbk5w4anlnqkbip773-glibc-locales-2.40-36",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/px8cvmxycca75kfbk5w4anlnqkbip773-glibc-locales-2.40-36"
+        }
+      }
+    },
+    "imagemagick@latest": {
+      "last_modified": "2024-10-26T22:05:23Z",
+      "resolved": "github:NixOS/nixpkgs/86e78d3d2084ff87688da662cf78c2af085d8e73#imagemagick",
+      "source": "devbox-search",
+      "version": "7.1.1-39",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/f24wd3hg0gwl01y1z6sarn0dbyn228sn-imagemagick-7.1.1-39",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/nijx3w7bdxnak0aw724asw2kkww6lkaa-imagemagick-7.1.1-39-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/bsvhd3li16mq9m71dqx16xy4m63wddh6-imagemagick-7.1.1-39-doc"
+            }
+          ],
+          "store_path": "/nix/store/f24wd3hg0gwl01y1z6sarn0dbyn228sn-imagemagick-7.1.1-39"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pdj9zafg9hifymy04zvphp5ap7dii53x-imagemagick-7.1.1-39",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/qfkwqic3hramm8m0msagwpx02a43vaxi-imagemagick-7.1.1-39-doc"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/g0n30yqwwqml1if1sax53dchcb9q33h5-imagemagick-7.1.1-39-dev"
+            }
+          ],
+          "store_path": "/nix/store/pdj9zafg9hifymy04zvphp5ap7dii53x-imagemagick-7.1.1-39"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8imrijrfirxca9ad35xjp67a94lqh9mv-imagemagick-7.1.1-39",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/gb4v9mxhjj2wsk8q9h243im3whqrpyw9-imagemagick-7.1.1-39-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/17psqlif52li7x0j9rqc0zdqi6x0g2xr-imagemagick-7.1.1-39-doc"
+            }
+          ],
+          "store_path": "/nix/store/8imrijrfirxca9ad35xjp67a94lqh9mv-imagemagick-7.1.1-39"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/47a6s1si1xq6gyspiyfw4fm5afqx7mvf-imagemagick-7.1.1-39",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/rl6p0c1gqan9icfcpk8yhm9asz3q076c-imagemagick-7.1.1-39-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/m5jq2lqghl4giihpdx6n5f223kvwazyk-imagemagick-7.1.1-39-doc"
+            }
+          ],
+          "store_path": "/nix/store/47a6s1si1xq6gyspiyfw4fm5afqx7mvf-imagemagick-7.1.1-39"
+        }
+      }
+    },
+    "libnsl@latest": {
+      "last_modified": "2024-10-13T23:44:06Z",
+      "resolved": "github:NixOS/nixpkgs/d4f247e89f6e10120f911e2e2d2254a050d0f732#libnsl",
+      "source": "devbox-search",
+      "version": "2.0.1",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/im8pv4fwam91g3az4bb1wfm7wpsm27h8-libnsl-2.0.1",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/6p5j0n7j1r6rrpcy0wl851ljcarr6blf-libnsl-2.0.1-dev"
+            }
+          ],
+          "store_path": "/nix/store/im8pv4fwam91g3az4bb1wfm7wpsm27h8-libnsl-2.0.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/il9s5xlgxd7iawcav5ij7wwgh9blr1xj-libnsl-2.0.1",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/7g3r9164lb12fnq3hdw87aj52q18vn6i-libnsl-2.0.1-dev"
+            }
+          ],
+          "store_path": "/nix/store/il9s5xlgxd7iawcav5ij7wwgh9blr1xj-libnsl-2.0.1"
+        }
+      }
+    },
     "libyaml@latest": {
       "last_modified": "2024-10-13T23:44:06Z",
       "resolved": "github:NixOS/nixpkgs/d4f247e89f6e10120f911e2e2d2254a050d0f732#libyaml",
@@ -178,6 +322,130 @@
         }
       }
     },
+    "openssl@latest": {
+      "last_modified": "2024-10-26T22:05:23Z",
+      "resolved": "github:NixOS/nixpkgs/86e78d3d2084ff87688da662cf78c2af085d8e73#openssl",
+      "source": "devbox-search",
+      "version": "3.3.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/a10lfxsms9ri0cng296mb3p9zv1mm13w-openssl-3.3.2-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/5s1i22h4mkngdaw0hdcjw3ny287yqz01-openssl-3.3.2-man",
+              "default": true
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/hfn95nq7wr6sidn5vridlk1a4drira0r-openssl-3.3.2"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/0w7wifk6j8df14dh887xk7zrjgv9b86a-openssl-3.3.2-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/4dx41nsb4q0336lzzrq1bnvcfa94kvfv-openssl-3.3.2-doc"
+            }
+          ],
+          "store_path": "/nix/store/a10lfxsms9ri0cng296mb3p9zv1mm13w-openssl-3.3.2-bin"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/62vj6isp88hpd8s1qri6rfd9glyj6mn5-openssl-3.3.2-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/41jpj95wcl0pgz5dlyybqgdb9f4m436c-openssl-3.3.2-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/nb5kwzjwgccfry7pbsrlcanzhj3vdc5a-openssl-3.3.2-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/wb7dfmn102az979wg5fg2j0280phmm3d-openssl-3.3.2-doc"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/lcmchmg9k0dmhzrlzr5q2jba9b5dm3hd-openssl-3.3.2"
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/rp3a2k66r1naixhp3jmf1w15xid7yrnn-openssl-3.3.2-debug"
+            }
+          ],
+          "store_path": "/nix/store/62vj6isp88hpd8s1qri6rfd9glyj6mn5-openssl-3.3.2-bin"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/nr9b0c45hd3rwfrf5y88f0krydqrzi72-openssl-3.3.2-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/av4xspc7qapzcj7cai5v6cp6rcashw64-openssl-3.3.2-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/dr1raj9n1wg77g2yl19b58wfbpjlpvbc-openssl-3.3.2-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/5cdws1m1zdq24cskmwaq172b8mzcsfyy-openssl-3.3.2-doc"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/qbi891qa35lhgnkgzk8v6nmcpw318cph-openssl-3.3.2"
+            }
+          ],
+          "store_path": "/nix/store/nr9b0c45hd3rwfrf5y88f0krydqrzi72-openssl-3.3.2-bin"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/s3vv0916j6z5zfs0b1bcfinx1kb6cbhn-openssl-3.3.2-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/38hak2ij9k8d3sz398gz3lyad3br2fxz-openssl-3.3.2-man",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/7spvbkyr95m1jcsc0mpj2b8ijgj1yirx-openssl-3.3.2-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/i4zk1906f863gjp39vhsjl1imkwyp4qs-openssl-3.3.2-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/dbhlzspnvw8yayp0hz289kws3zawc2f8-openssl-3.3.2-doc"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/k09x35dsjavyy4xbfda7aafi1knwqd20-openssl-3.3.2"
+            }
+          ],
+          "store_path": "/nix/store/s3vv0916j6z5zfs0b1bcfinx1kb6cbhn-openssl-3.3.2-bin"
+        }
+      }
+    },
     "postgresql@latest": {
       "last_modified": "2024-10-24T16:50:28Z",
       "plugin_version": "0.0.2",
@@ -352,68 +620,68 @@
         }
       }
     },
-    "ruby@3.2": {
+    "ruby@3.3": {
       "last_modified": "2024-10-13T23:44:06Z",
       "plugin_version": "0.0.2",
-      "resolved": "github:NixOS/nixpkgs/d4f247e89f6e10120f911e2e2d2254a050d0f732#ruby_3_2",
+      "resolved": "github:NixOS/nixpkgs/d4f247e89f6e10120f911e2e2d2254a050d0f732#ruby",
       "source": "devbox-search",
-      "version": "3.2.4",
+      "version": "3.3.5",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/j4gi66jyni0sywwlxxml3i5hhaxaf45f-ruby-3.2.4",
+              "path": "/nix/store/nwzyvr91mw3qhclgl3np1wxvy15gnxg1-ruby-3.3.5",
               "default": true
             },
             {
               "name": "devdoc",
-              "path": "/nix/store/20fiv0mnz4n0zcaaffi866jcvb5xyzfm-ruby-3.2.4-devdoc"
+              "path": "/nix/store/lp38x962sqfyccwgw9l471gcj3fl7x8j-ruby-3.3.5-devdoc"
             }
           ],
-          "store_path": "/nix/store/j4gi66jyni0sywwlxxml3i5hhaxaf45f-ruby-3.2.4"
+          "store_path": "/nix/store/nwzyvr91mw3qhclgl3np1wxvy15gnxg1-ruby-3.3.5"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/fv2f342sbq1zd64491bvi1h0kwfpl6v0-ruby-3.2.4",
+              "path": "/nix/store/fmplm6zjnzd6a3dj8x5njv0z1wancnly-ruby-3.3.5",
               "default": true
             },
             {
               "name": "devdoc",
-              "path": "/nix/store/mak6sqims9gn62zfaj87l6q1g8c4mvj9-ruby-3.2.4-devdoc"
+              "path": "/nix/store/8a93x441hj2v3qf6j2xh27vb601mwkzp-ruby-3.3.5-devdoc"
             }
           ],
-          "store_path": "/nix/store/fv2f342sbq1zd64491bvi1h0kwfpl6v0-ruby-3.2.4"
+          "store_path": "/nix/store/fmplm6zjnzd6a3dj8x5njv0z1wancnly-ruby-3.3.5"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/p8clycn65b4hikxiynscx6yn4gbag3pr-ruby-3.2.4",
+              "path": "/nix/store/m5mlcdfsayi8pcjffl4x7315s2bagd7r-ruby-3.3.5",
               "default": true
             },
             {
               "name": "devdoc",
-              "path": "/nix/store/2ic782ic0j5mxc822003dah8r8qpjwb0-ruby-3.2.4-devdoc"
+              "path": "/nix/store/821g3j8yc6lbl3ar9zbzz681200paw3n-ruby-3.3.5-devdoc"
             }
           ],
-          "store_path": "/nix/store/p8clycn65b4hikxiynscx6yn4gbag3pr-ruby-3.2.4"
+          "store_path": "/nix/store/m5mlcdfsayi8pcjffl4x7315s2bagd7r-ruby-3.3.5"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/npd07hqhx0gkxi3p6pg5slgpmpii1pi8-ruby-3.2.4",
+              "path": "/nix/store/3f0km601raxi1vms013ahxnn0v92qn74-ruby-3.3.5",
               "default": true
             },
             {
               "name": "devdoc",
-              "path": "/nix/store/1h26b16m66l8p92salgfl2y3nkm8kbyz-ruby-3.2.4-devdoc"
+              "path": "/nix/store/dm34f3shbxf315xmvnfcvv884sg8rifs-ruby-3.3.5-devdoc"
             }
           ],
-          "store_path": "/nix/store/npd07hqhx0gkxi3p6pg5slgpmpii1pi8-ruby-3.2.4"
+          "store_path": "/nix/store/3f0km601raxi1vms013ahxnn0v92qn74-ruby-3.3.5"
         }
       }
     }

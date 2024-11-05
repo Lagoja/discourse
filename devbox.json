@@ -16,7 +16,7 @@
   },
   "shell": {
     "init_hook": [
-      "if [ ! -d \"$PGDATA\" ]; initdb",
+      "if [ ! -d \"$PGDATA\" ]; then initdb; fi",
     ],
     "scripts": {
       "install": [

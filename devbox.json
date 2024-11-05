@@ -23,7 +23,10 @@
       "version": "latest",
       "outputs": ["out", "dev"],
     },
-    "libnsl":      "latest",
+    "libnsl": {
+      "version":            "latest",
+      "excluded_platforms": ["aarch64-darwin"],
+    },
     "imagemagick": "latest",
   },
   "env": {

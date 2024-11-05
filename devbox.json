@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/main/.schema/devbox.schema.json",
+  "packages": {
+    "postgresql": {
+      "version": "latest",
+      "outputs": ["out", "lib", "dev"],
+    },
+    "redis":  "latest",
+    "nodejs": "latest",
+    "ruby":   "3.2",
+    "libyaml": {
+      "version": "latest",
+      "outputs": ["dev", "out"],
+    },
+    "mailhog": "latest",
+  },
+  "shell": {
+    "init_hook": [
+      "if [ ! -d \"$PGDATA\" ]; initdb",
+    ],
+    "scripts": {
+      "install": [
+        "bundle install",
+        "pnpm install",
+      ],
+      "setup_db": [
+        "bin/rails db:create",
+        "bin/rails db:migrate",
+        "RAILS_ENV=test bin/rails db:create db:migrate",
+      ],
+      "setup_admin": [
+        "bin/rails admin:create"
+      ]
+    },
+  },
+}

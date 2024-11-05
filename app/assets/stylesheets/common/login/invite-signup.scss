@@ -1,0 +1,57 @@
+.invites-show {
+  padding: 2rem 3rem;
+  background: var(--secondary);
+
+  .success-info p:last-child {
+    margin-bottom: 0;
+  }
+
+  .user-info {
+    align-items: center;
+    gap: 0.5em;
+  }
+
+  .avatar {
+    width: 30px;
+    height: 30px;
+  }
+
+  .create-account__password {
+    &-info {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-tip-validation {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .invitation-cta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .instructions {
+    color: var(--primary-medium);
+  }
+
+  .disclaimer {
+    color: var(--primary-medium);
+    margin-top: 0.5em;
+  }
+
+  .invite-form form {
+    display: flex;
+    flex-direction: column;
+
+    .input-group {
+      &.email-input,
+      &.username-input,
+      &.name-input.name-required {
+        order: -1;
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+processes:
+  ember-frontend:
+    command: "./bin/ember-cli"
+  rails-server:
+    command: "./bin/rails s"
+
